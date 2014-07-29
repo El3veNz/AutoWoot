@@ -47,7 +47,7 @@ bpl = {
     API.on(API.CHAT, bpl.chat, this); 
     $("#woot").bind('click', bpl.doubleClick); 
         
-    API.chatLog("Running BassPlugLite V. "+bpl.version);
+    API.chatLog("AutoWoot activé.  Version  "+bpl.version);
     $('#woot').click();
 }
 
